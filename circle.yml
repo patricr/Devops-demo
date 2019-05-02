@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git remote add production dokku@68.183.70.169:dokku-demo
+      - git push production master
